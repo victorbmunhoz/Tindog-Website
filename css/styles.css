@@ -80,16 +80,10 @@ p {
     width: 16px;
 }
 
-@media (max-width:1028px) {
-    #title {
+@media(max-width:1028px) {
+    .title-heading {
         text-align: center;
-    }
-
-    .title-image {
-        position: static;
-        transform: rotate(0);
-    }
-
+    } 
 }
 
 /* Download Buttons */
@@ -105,6 +99,13 @@ p {
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
+}
+
+@media(max-width:1028px) {
+      .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /* Features section */
